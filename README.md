@@ -1,31 +1,31 @@
-# 手部检测程序
+# Hand Detection Program
 
-## 程序概述
-这是一个使用MediaPipe和OpenCV实现的手部检测程序，可以实时检测摄像头画面中的手部并绘制特征点。
+## Overview
+This is a hand detection program implemented using MediaPipe and OpenCV, which can detect hands in real-time from camera feed and draw feature points.
 
-## 依赖安装
+## Dependencies Installation
 ```bash
 pip install opencv-python mediapipe
 ```
 
-## 版本支持
+## Version Support
 - Python 3.9+
 - opencv-python >=4.5.0
 - mediapipe >=0.8.0
 - numpy >=1.20.0
 
-## 运行方法
+## How to Run
 ```bash
 python hand_detection.py
 ```
 
-## 功能说明
-- 实时检测摄像头画面中的手部
-- 绘制手部21个特征点及其连接线
-- 支持同时检测多只手
-- 左右手识别功能
-- 手势控制音量大小
-- 手势调节屏幕亮度
+## Features
+- Real-time hand detection from camera feed
+- Draws 21 hand landmarks and their connections
+- Supports multiple hand detection
+- Left/right hand recognition
+- Gesture control for volume adjustment
+- Gesture control for screen brightness
 
-## 退出方式
-在程序运行窗口按'q'键退出程序。
+## Exit Method
+Press 'q' key in the program window to exit.
